@@ -1,30 +1,9 @@
-# BigchainDB Examples
-
-<h3>🔥 This project won't be updated anymore and has been succeeded by <a href="https://github.com/bigchaindb/kyber">Kyber, a full suite of BigchainDB components with examples, tutorials & burning experiments</a>. Head on over for more up-to-date examples, more fun and way more midi-chlorians.</h3>
-
----
-
-[![Status](https://img.shields.io/badge/status-in%20flux-yellow.svg)]()
-[![Documentation Status](http://readthedocs.org/projects/bigchaindb-examples/badge/?version=latest)](http://bigchaindb-examples.readthedocs.io/en/latest/?badge=latest)
-[![Join the chat at https://gitter.im/bigchaindb/bigchaindb](https://badges.gitter.im/bigchaindb/bigchaindb.svg)](https://gitter.im/bigchaindb/bigchaindb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-This repo contains examples and tutorials for BigchainDB.
-
-__Warning__: These examples are for demonstration purposes and should not be used as-is for production
-
-See the [documentation](http://bigchaindb-examples.readthedocs.io/en/latest/index.html):
-* [Installing](http://bigchaindb-examples.readthedocs.io/en/latest/install.html)
-* [Running](http://bigchaindb-examples.readthedocs.io/en/latest/run.html)
-* [Troubleshooting](http://bigchaindb-examples.readthedocs.io/en/latest/troubleshooting.html)
-
-Examples:
-* [On the Record](#example-on-the-record)
-* [Share Trader](#example-share-trader)
-* [Interledger](#example-interledger)
+#Tokain Starter Code
+This repo contains starter code for the Tokain project. It includes an example application that allows us to post messages to the BigChainDB database as well as an example of how to connect an angular frontend for the application. This models the core code needed to record verified information onto the blockchain and have an updated frontend. 
 
 ### Dependencies
 
-The examples can be [run via Docker](http://bigchaindb-examples.readthedocs.io/en/latest/install.html#the-docker-way)
+The application can be [run via Docker](http://bigchaindb-examples.readthedocs.io/en/latest/install.html#the-docker-way)
 (**recommended**), but, if you'd like, you can also [run them locally](http://bigchaindb-examples.readthedocs.io/en/latest/install.html#install-from-source)
 with the following system dependencies:
 
@@ -70,9 +49,7 @@ $ bigchaindb-examples reset-all
 
 The app will be available at <http://localhost:3000>.
 
-## Example: "On the Record"
-
-"On the Record" is a simple logging app, wrapped as a messaging board.
+This is a simple logging app, modeling the behavior needed for posting campaign donations to BigChainDB, the core functionality of the Tokain application. 
 
 <p align="center">
   <img width="70%" height="70%" src ="./docs/img/on_the_record_v0.0.1.png" />
@@ -98,48 +75,3 @@ The app will be available at <http://localhost:3000>.
 
 - Proper user and key management
 - Transfer of assets
-
-## Example: Share Trader
-
-Share Trader is a simple share allocation and trade app. Each square represents an asset that can be traded amongst accounts.
-
-<p align="center">
-  <img width="70%" height="70%" src ="./docs/img/share_trader_v0.0.1.png" />
-</p>
-
-### Use cases
-
-- Reservation of tickets, seats in a concert/transport, ...
-- Trade of limited issued assets
-
-### Functionality
-
-#### Create assets
-- assets are created following a structured payload
-- the amount is limited
-
-#### Transfer assets
-- easy transfer of assets between accounts by:
- - clicking on an account first. This will give the assets for that account
- - clicking on an asset of that account. Transfer actions will appear on the right side.
-
-#### Retrieve assets
-- that you currently own (like UTXO's)
-- all assets on bigchain
-- state indicator (blinks if asset has various owners)
-
-#### What this app doesn't provide
-
-- Proper user and key management
-- Proper signing of transfers
-- Proper search by payload
-
-## Example: Interledger
-
-TODO
-
-## Acknowledgements:
-
-Special thanks to the BigchainDB/ascribe.io team for their insights and code contributions:
-
-@r-marques, @vrde, @ttmc, @rhsimplex, @SohKai, @sbellem, @TimDaub
