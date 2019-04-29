@@ -52,7 +52,7 @@ The app will be available at <http://localhost:3000>.
 This is a simple logging app, modeling the behavior needed for posting campaign donations to BigChainDB, the core functionality of the Tokain application. 
 
 <p align="center">
-  <img width="70%" height="70%" src ="./docs/img/on_the_record_v0.0.1.png" />
+  <img width="70%" height="70%" src ="./docs/img/tokain-logging" />
 </p>
 
 ### Use cases
