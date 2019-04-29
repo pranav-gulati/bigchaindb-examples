@@ -1,4 +1,4 @@
-#Tokain Starter Code
+# Tokain Starter Code
 This repo contains starter code for the Tokain project. It includes an example application that allows us to post messages to the BigChainDB database as well as an example of how to connect an angular frontend for the application. This models the core code needed to record verified information onto the blockchain and have an updated frontend. 
 
 ### Dependencies
