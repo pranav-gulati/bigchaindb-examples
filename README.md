@@ -70,8 +70,3 @@ This is a simple logging app, modeling the behavior needed for posting campaign 
 - that you currently own (like UTXO's)
 - by searching the asset data/payload
 - state indicator (in backlog vs. on bigchain)
-
-#### What this app doesn't provide
-
-- Proper user and key management
-- Transfer of assets
